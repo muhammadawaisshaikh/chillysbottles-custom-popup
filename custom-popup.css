@@ -149,3 +149,22 @@ li{
 .popup-slide .slide-right hr{
     width: 90%;
 }
+
+@media screen and (max-width: 600px) {
+    .popup-slide{
+        display: block;
+    }
+    .popup-slide .slide-left{
+        position: fixed;
+        width: 10%;
+        right: -10%;
+    }
+    .popup-slide .slide-right{
+        position: fixed;
+        width: 90%;
+        right: -90%;
+    }
+    .popup-slide .slide-left a{
+        display: none;
+    }
+}
