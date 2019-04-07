@@ -18,8 +18,8 @@
         <ul>
             <li onclick="showPopup()">Packaging</li>
             <li onclick="showPopup()">FAQs</li>
-            <li onclick="showPopup()">Delivery</li>
-            <li onclick="showPopup()">Returns</li>
+            <li onclick="showPopupSlide()">Delivery</li>
+            <li onclick="showPopupSlide()">Returns</li>
         </ul>
     </div>
 
@@ -34,6 +34,21 @@
                 <img src="https://assets.chillysbottles.com/assetsRenders/_width160/V2-Packaging-Tropical-Flamingo-CC-230ml.PNG" alt="Image">
                 <p>hello this is popup content section</p>
             </div>
+        </div>
+    </div>
+
+    <!-- popup slide -->
+    <div class="popup-slide">
+        <div class="slide-left" onclick="closeSlidePopup()">
+            <a onclick="closeSlidePopup()">Continue Shopping</a>
+        </div>
+        <div class="slide-right">
+            <div class="content">
+                <h1>HEADING</h1>
+                <p>Free for orders over £10 - 2-4 working days from despatch confirmation.</p>
+            </div>
+            <hr>
+            <a class="right-close-btn" onclick="closeSlidePopup()">Close</a>
         </div>
     </div>
     
