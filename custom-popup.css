@@ -29,16 +29,18 @@ li{
     background: #fff;
     width: 100%;
     height: 100%;
-}
-
-.popup .inner-sec-popup{
-    padding: 30px;
+    z-index: 1;
 }
 
 .popup.show{
     visibility: visible;
     opacity: 1;
 }
+
+.popup .inner-sec-popup{
+    padding: 30px;
+}
+
 
 .popup .head{
     position: relative;
@@ -60,3 +62,14 @@ li{
 .popup .content{
     padding: 30px 0 0 0;
 }
+
+.popup .content img{
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .popup .content img{
+        width: 100%;
+    }
+  }
